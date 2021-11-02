@@ -53,5 +53,12 @@ public class EventController {
         }
         return "redirect:";
     }
-}
 
+    public String displayEditForm(Model model, @PathVariable int eventId) {
+        // controller code will go here
+    }
+
+    public String processEditForm(int eventId, String name, String description) {
+        // controller code will go here
+    }
+}
